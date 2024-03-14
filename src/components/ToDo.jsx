@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiEdit} from "react-icons/bi"
-import { AiFillDelete } from "react-icons/ai"; // Note the corrected icon name
+import { AiFillDelete } from "react-icons/ai"; 
 import "../App.css";
 const ToDo = ({text, updateMode, deleteToDo}) => {
   return (
