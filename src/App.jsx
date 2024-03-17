@@ -29,7 +29,9 @@ function App() {
             }
         } else {
             alert("Please enter something")
+            console.log("enter something")
         }
+        
     }
     
 
