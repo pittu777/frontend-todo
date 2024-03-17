@@ -2,7 +2,10 @@
 import axios from "axios"
 
 
-const baseUrl =  process.env.URL;
+
+const baseUrl = "https://full-stack-todo-app-89mt.onrender.com";
+
+
 
 export const getAllToDo = (setToDo)=>{
     axios.get(baseUrl)
